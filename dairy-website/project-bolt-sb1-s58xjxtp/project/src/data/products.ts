@@ -1,0 +1,93 @@
+import { Product, Testimonial } from '../types';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Full Cream Milk',
+    description: 'Farm-fresh whole milk, rich in natural fats and nutrients. Sourced from grass-fed cows daily.',
+    price: '₹60',
+    unit: 'per litre',
+    image: 'https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tag: 'Best Seller',
+    category: 'milk',
+  },
+  {
+    id: 2,
+    name: 'Matka Dahi',
+    description: 'Set in traditional clay matkas for that earthy, thick, probiotic-rich curd. Pure old-world taste.',
+    price: '₹80',
+    unit: 'per 500g',
+    image: 'https://images.pexels.com/photos/2737858/pexels-photo-2737858.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tag: 'Signature',
+    category: 'curd',
+  },
+  {
+    id: 3,
+    name: 'Fresh Paneer',
+    description: 'Soft, dense, handcrafted paneer made every morning from the finest whole milk.',
+    price: '₹120',
+    unit: 'per 200g',
+    image: 'https://images.pexels.com/photos/6419720/pexels-photo-6419720.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'paneer',
+  },
+  {
+    id: 4,
+    name: 'Pure Desi Ghee',
+    description: 'Slow-churned, golden A2 ghee with a deep nutty aroma. Made the traditional bilona way.',
+    price: '₹650',
+    unit: 'per 500ml',
+    image: 'https://images.pexels.com/photos/4110255/pexels-photo-4110255.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tag: 'Premium',
+    category: 'ghee',
+  },
+  {
+    id: 5,
+    name: 'White Butter',
+    description: 'Unsalted, freshly churned white butter — smooth, natural, and free from preservatives.',
+    price: '₹180',
+    unit: 'per 200g',
+    image: 'https://images.pexels.com/photos/531334/pexels-photo-531334.jpeg?auto=compress&cs=tinysrgb&w=800',
+    category: 'butter',
+  },
+  {
+    id: 6,
+    name: 'Masala Chaas',
+    description: 'Refreshing spiced buttermilk, traditionally churned and blended with roasted cumin and mint.',
+    price: '₹40',
+    unit: 'per 300ml',
+    image: 'https://images.pexels.com/photos/1435706/pexels-photo-1435706.jpeg?auto=compress&cs=tinysrgb&w=800',
+    tag: 'New',
+    category: 'buttermilk',
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: 'Priya Sharma',
+    location: 'Jaipur',
+    review: 'The matka dahi is absolutely divine. It tastes exactly like what my grandmother used to make. Nothing else comes close.',
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: 'Rohan Mehta',
+    location: 'Delhi',
+    review: 'I switched to their A2 ghee six months ago and I will never go back. The aroma, the taste — it is genuinely different.',
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: 'Ananya Patel',
+    location: 'Ahmedabad',
+    review: 'Fresh delivery every morning, the milk is always cold and the paneer is the softest I have had in the city.',
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: 'Deepak Joshi',
+    location: 'Udaipur',
+    review: 'A family business done right. You can actually taste the difference when dairy is made with care.',
+    rating: 5,
+  },
+];
